@@ -15,6 +15,7 @@
     border: none;
     outline: none;
     padding-left: 30px;
+    width: 510px;
 }
 .wd-magnifying-glass {
     position: absolute;
@@ -29,6 +30,7 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 22px; 
+    text-decoration: none;
 }
 .wd-nav-tabs {
     font-size: 15px;
@@ -67,7 +69,7 @@
 }
 .wd-explore-image-heading {
     position: absolute;
-    bottom: -10px;
+    top: 330px;
     left: 10px; 
     color: white;
     font-size: 20px;
@@ -103,4 +105,5 @@
     font-size: 20px;
     color: gray;
     text-decoration: none;
+    margin-right: 4px;
 }

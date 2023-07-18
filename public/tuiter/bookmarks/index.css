@@ -6,11 +6,11 @@
     border-top: none;
 }
 .wd-left-arrow {
-        margin-right: 35px; 
-        text-decoration: none; 
-        color: black;
-        font-size: 18px;
-    }
+    margin-right: 35px; 
+    text-decoration: none; 
+    color: black;
+    font-size: 18px;
+}
 .wd-title {
     font-size: 20px;
 }
@@ -80,21 +80,4 @@
 .wd-gray-image {
     filter: grayscale(100%);
     opacity: 0.3;
-}
-/* --Bootsrap below-- */
-@media (max-width: 768px) {
-    .wd-cog {
-        padding-left: 6px;
-    }
-}
-/* Larger devices */
-@media (min-width: 992px)
-and (max-width: 1200px) {
-    .btn.wd-media-query {
-        width: 120% !important;
-    }
-}
-.btn:focus, .btn:active {
-  outline: none !important;
-  box-shadow: none !important;
 }
