@@ -1,0 +1,11 @@
+.wd-border {
+    padding-top: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.wd-margin-left {
+    margin-left: 16px;
+}
+.wd-float-done {
+    clear: both;
+}
