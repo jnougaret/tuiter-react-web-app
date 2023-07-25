@@ -3,9 +3,9 @@ import Nav from "../nav";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import HomeScreen from "./navigation-sidebar/home-screen";
-import ExploreScreen from "./navigation-sidebar/explore-screen";
 import BookmarksScreen from "./navigation-sidebar/bookmarks-screen";
 import ProfileScreen from "./navigation-sidebar/profile-screen";
+import ExploreScreen from "./explore-screen";
 
 function Tuiter() {
  return (
@@ -24,7 +24,7 @@ function Tuiter() {
          </Routes>
        </div>
        <div className="col-3">
-             <WhoToFollowList />
+          <WhoToFollowList />
        </div>
      </div>
    </div>
