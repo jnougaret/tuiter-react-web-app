@@ -18,6 +18,10 @@
     float: left;
     margin-left: 16px;
 }
+.wd-post-ellipsis {
+    float: right;
+    text-decoration: none;
+}
 .wd-post-right {
     float: left;
     margin-left: 12px;
