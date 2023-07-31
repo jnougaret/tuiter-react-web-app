@@ -1,7 +1,7 @@
 import React from "react";
 import HelloReduxExampleComponent from "./hello-redux-example-component";
 import hello from "./reducers/hello";
-import {configureStore} from "redux";
+import {configureStore} from "@reduxjs/toolkit";
 import {Provider} from "react-redux";
 
 const store = configureStore(hello);
