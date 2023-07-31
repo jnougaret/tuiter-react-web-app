@@ -1,6 +1,3 @@
-/*p {
- background-color: blue;
- color: white;}*/
 p#id-selector-1 {
  background-color: red;
  color: white;
@@ -181,3 +178,7 @@ p#id-selector-2 {
    font-size: 2em;
    font-weight: bolder;
 }
+#qwe { background-color: blue }
+#wer { background-color: green }
+.qwe { background-color: blue; color: white }
+.wer { background-color: green; color: white }
