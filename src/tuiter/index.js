@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router";
 import Nav from "../nav";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
-import HomeScreen from "./navigation-sidebar/home-screen";
+import HomeScreen from "./home-screen";
 import BookmarksScreen from "./navigation-sidebar/bookmarks-screen";
 import ProfileScreen from "./navigation-sidebar/profile-screen";
 import ExploreScreen from "./explore-screen";
