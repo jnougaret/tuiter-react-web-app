@@ -8,10 +8,11 @@ import BookmarksScreen from "./navigation-sidebar/bookmarks-screen";
 import ProfileScreen from "./navigation-sidebar/profile-screen";
 import ExploreScreen from "./explore-screen";
 import whoReducer from "./reducers/who-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
 import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 const store = configureStore(
-  {reducer: {who: whoReducer}});
+  {reducer: {who: whoReducer, tuits: tuitsReducer}});
 
 function Tuiter() {
   return (
